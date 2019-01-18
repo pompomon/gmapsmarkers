@@ -7,6 +7,7 @@ Init google maps and show markers on click
 # Running
 `watch.cmd`
 `node index.js`
+0. Get Google Maps Javascript API key and insert it into `public/index.html` instead of `KEY` placeholder
 1. Open http://127.0.0.1:3000/
 2. Click needed markers
 3. Click Export and copy latlong array
