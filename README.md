@@ -5,9 +5,8 @@ Init google maps and show markers on click
 `npm install`
 
 # Running
-
+`watch.cmd`
 `node index.js`
-
 1. Open http://127.0.0.1:3000/
 2. Click needed markers
 3. Click Export and copy latlong array
