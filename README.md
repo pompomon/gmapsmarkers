@@ -12,3 +12,8 @@ Init google maps and show markers on click
 2. Click needed markers
 3. Click Export and copy latlong array
 4. On popup close the markers would be removed automatically
+
+## Polygons
+To draw a polygon select "Polygon" from a dropdown and then click on the map
+Export would return all vertices
+To finish polygon with more than 2 vertices you can right-click anywhere on the map and it would automatically complete path from last vertex to the first one.

@@ -9,12 +9,29 @@ body {
   padding: 0;
 }
 
-.exportButton {
+.controls {
   position: absolute;
   bottom: 5%;
   left: 5%;
   z-index: 1;
-  @include btn();
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .exportButton {
+    @include btn();
+    flex: 0 0 auto;
+    align-self: center;
+  }
+
+  .controlTypeBlock {
+    flex: 0 0 auto;
+    align-self: center;
+
+    #controlType {
+      @include dropdown();
+    }
+  }
 }
 
 /* The Modal (background) */
